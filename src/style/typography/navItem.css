@@ -1,0 +1,10 @@
+@layer components{
+    .Nav-Item{
+      @apply font-semibold text-[17px] xl:text-[15px] x-l:text-[14px] leading-[25.5px] x-l:leading-5 tracking-[0.07em] xl:tracking-[0.05em] x-l:tracking-4% text-white
+    }
+    .Drop-Search-List{
+      @apply font-semibold text-xs m-d:text-[10px] m-d:leading-[14px] leading-[18px] text-white cursor-pointer hover:text-[#FFFFFF80] ;
+     
+      
+    }
+}

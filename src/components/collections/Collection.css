@@ -1,0 +1,16 @@
+.rich-text-collection ol {
+    list-style-type: none;
+    /* Remove default numbering */
+    padding-left: 1.5em;
+}
+
+.rich-text-collection ol li::before {
+    content: '●';
+    /* Circle */
+    color: black;
+    /* Customize color */
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    position: relative;
+    top: -1px;
+}

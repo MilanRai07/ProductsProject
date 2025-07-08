@@ -1,0 +1,23 @@
+@layer components {
+   .Collection-Section-Title {
+      @apply font-normal text-[40px] xl:text-[35px] x-l:text-[30px] md:!text-[24px] sm-d:!text-[22px] xs:!text-[20px] 
+      2xs:!text-[18px] 2xs:leading-10 sm-d:leading-[40px] leading-[70px] x-l:leading-[55px] tracking-[0.06em]
+   }
+
+   .Collection-Section-SubTitle {
+      @apply font-bold text-[65px] xl:text-[60px] x-l:text-[55px] md:!text-[48px] xs:!text-[40px] leading-[70px] 
+      sm-d:!text-[40px] 2xs:!text-[35px] 2xs:leading-10 sm-d:leading-[40px] x-l:leading-[55px]
+   }
+
+   .Coll-Title {
+      @apply font-bold text-[25px] tracking-[0.01em] l-g:text-[22px] md:tracking-tighter 1xs:text-[20px] 2xs:text-[19px]
+   }
+
+   .Coll-Sub-Title {
+      @apply font-semibold text-[20px] l-g:text-[19px] 1xs:text-[16px] 
+   }
+
+   .Coll-Detail {
+      @apply font-normal text-[15px] l-g:text-[14px] 1xs:text-[13px] 
+   }
+}

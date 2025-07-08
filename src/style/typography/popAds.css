@@ -1,0 +1,21 @@
+@layer components {
+    .Ads-Title {
+        @apply text-[19px] leading-[28.5px] tracking-[0.04em] border-b border-b-Golden lg:text-[16px] lg:leading-[2px] sm-d:text-[14px] sm-d:leading-[0px] xs:text-[12px] xs:leading-[0px]
+    }
+
+    .Ads-Detail1 {
+        @apply text-[65px] leading-[97.5px] tracking-[0.04em] lg:text-[30px] lg:leading-[27px] sm-d:text-[25px] xs:text-[18px] sm-d:leading-[10px] xs:leading-[10px] sm-d:mb-2
+    }
+
+    .Ads-Detail2 {
+        @apply text-[22px] leading-[33px] tracking-[0.04em] lg:text-[17px] lg:leading-[25px] sm-d:text-[15px] xs:text-[13px] sm-d:leading-[17px]
+    }
+
+    .Ads-Info1 {
+        @apply w-full h-[50px] bg-Golden hover:bg-DarkGolden rounded-[5px] Flex-Center text-[22px] lg:text-[18px] sm-d:text-[16px] xs:text-[14px] lg:leading-[20px] sm-d:leading-[10px] leading-[33px] tracking-[0.04em] text-white
+    }
+
+    .Ads-Info2 {
+        @apply font-light text-[15px] leading-[22.5px] tracking-[0.10em] lg:text-[12px] sm-d:text-[10px] xs:text-[8px]
+    }
+}

@@ -1,0 +1,9 @@
+@layer components {
+    .End-Big {
+        @apply font-extrabold text-[40px] leading-[48px] sm:text-[27px] sm-d:text-[24px] 
+    }
+
+    .End-Small {
+        @apply font-semibold text-[19px] leading-[22px] sm:text-[14px] sm:leading-[20px] sm-d:text-[12]
+    }
+}

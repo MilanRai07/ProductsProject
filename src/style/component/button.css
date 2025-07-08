@@ -1,0 +1,17 @@
+@layer components {
+    .Golden-Btn {
+        @apply bg-Golden hover:bg-DarkGolden Flex-Center transition;
+    }
+
+    .Black-Btn {
+        @apply bg-black text-white Flex-Center rounded-[30px]
+    }
+
+    .White-Btn {
+        @apply bg-white text-black Flex-Center rounded-[30px]
+    }
+
+    .Black-Square-Btn {
+        @apply px-2 py-1.5 border border-[#3D3D3D] hover:text-white hover:bg-[#3D3D3D] font-medium text-[15px] leading-[26px] tracking-4% transition-all ease-in-out duration-300
+    }
+}

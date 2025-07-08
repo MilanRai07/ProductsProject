@@ -1,0 +1,13 @@
+@layer components {
+    .Drop-Long-Image-Box {
+        @apply w-[226px] xl:w-[130px] x-l:w-[110px] h-full  rounded-[15px] overflow-hidden border-[0.5px] border-white/50
+    }
+
+    .Drop-Short-Image-Box {
+        @apply w-full h-[161px] rounded-[10px] overflow-hidden border-[0.5px] border-white/50
+    }
+
+    .Drop-Image {
+        @apply w-full h-full object-cover
+    }
+}

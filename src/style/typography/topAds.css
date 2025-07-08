@@ -1,0 +1,8 @@
+@layer components{
+    .All-Font{
+        @apply text-sm x-l:text-xs font-[275] 2xs:text-[10px] leading-[21px] tracking-[0.7px] x-l:tracking-[0.03em]
+    }
+    .Span-Text{
+        @apply text-sm font-medium 2xs:text-xs
+    }
+}

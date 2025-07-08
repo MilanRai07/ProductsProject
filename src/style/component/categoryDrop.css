@@ -1,0 +1,13 @@
+@layer components {
+    .Select {
+        @apply w-full rounded-[100px] h-[46px] sl2:w-[200px] sl3:w-[180px] x-l:h-[40px] sm-d:h-[35px] xs:h-[30px] x-l:w-[230px] sm-d:w-[200px] xs:w-[180px] text-[#FFFFFFB2]/70 text-[14px] leading-[40px] tracking-[0.05em] px-7 sl3:px-4 bg-[#40404080] flex justify-between items-center py-3 box-border cursor-pointer
+    }
+
+    .Category-Drop-Div {
+        @apply absolute w-full bg-[#404040] rounded-[10px] mt-1 overflow-hidden h-auto sl2:w-[150px] sl3:w-[150px] x-l:w-[230px] sm-d:w-[200px] xs:w-[180px] text-[#FFFFFFB2]/70 text-[14px] leading-[40px] tracking-[0.05em]
+    }
+
+    .Category-Drop-Item {
+        @apply text-[14px] x-l:text-[13px] sm-d:text-[12px] xs:text-[11px] leading-[40px] sm:leading-[26px] tracking-[0.05em] cursor-pointer
+    }
+}

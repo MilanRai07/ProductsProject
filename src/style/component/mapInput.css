@@ -1,0 +1,13 @@
+@layer components {
+    .Map-Input-text {
+        @apply font-medium text-[15px] gl6:text-[14px] leading-[20px] text-black placeholder-[#3D3D3DB2]
+    }
+
+    .Map-Input {
+        @apply border-[1.5px] gl6:text-[14px] border-[#3D3D3D80] p-4 focus:outline-none w-[253px] xl:!w-[200px] gl6:!w-full h-[51px] bg-transparent focus:ring-[1.5px] focus:ring-DarkGolden
+    }
+
+    .Map-Button {
+        @apply border-[1.5px] gl6:text-[14px] border-[#3D3D3D80] px-4 py-2 flex justify-between items-center focus:outline-none w-[253px] 2xl:!w-[200px] xl:!w-[160px] gl6:!w-full h-[51px] bg-transparent focus:ring-[1.5px] focus:ring-DarkGolden
+    }
+}

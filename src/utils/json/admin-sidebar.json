@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Dashboard",
+      "path": "dashboard",
+      "icon": "House"
+    },
+    {
+      "id": 2,
+      "name": "Categories & Tags",
+      "path": "/dashboard/categories-tags",
+      "icon": "Hash"
+    },
+    {
+      "id": 3,
+      "name": "Blogs",
+      "path": "/dashboard/blogs",
+      "icon": "Journal"
+    },
+    {
+      "id": 5,
+      "name": "Users",
+      "path": "/dashboard/users",
+      "icon": "People"
+    },
+    {
+      "id": 6,
+      "name": "Products",
+      "path": "/dashboard/products",
+      "icon": "Basket"
+    },
+    {
+      "id": 7,
+      "name": "Gallery",
+      "path": "/dashboard/gallery",
+      "icon": "CardImage"
+    },
+    {
+      "id": 8,
+      "name": "Locations",
+      "path": "/dashboard/locations",
+      "icon": "GeoAlt"
+    },
+    {
+      "id": 9,
+      "name": "Contacts",
+      "path": "/dashboard/contacts",
+      "icon": "Envelope"
+    },
+    {
+      "id": 10,
+      "name": "Designers",
+      "path": "/dashboard/designers",
+      "icon": "Camera2"
+    },
+    {
+      "id": 11,
+      "name": "Catalogue",
+      "path": "/dashboard/products/catalogue",
+      "icon": "FileEarmarkPdf"
+    },
+    {
+      "id": 12,
+      "name": "Popup",
+      "path": "/dashboard/popup/",
+      "icon": "FileEarmarkPdf"
+    },
+    {
+      "id": 13,
+      "name": "Subscribers",
+      "path": "/dashboard/subscriber/",
+      "icon": "EnvelopeCheck"
+    }
+  ]
+}

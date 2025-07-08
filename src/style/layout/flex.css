@@ -1,0 +1,29 @@
+@layer components{
+    .Flex-Justify-Center{
+        @apply flex justify-center;
+    }
+    .Flex-Center{
+        @apply flex items-center justify-center;
+    }
+    .Flex-Align-Center{
+        @apply flex items-center;
+    }
+    .Flex-Around{
+        @apply flex items-center justify-around;
+    }
+    .Flex-Between{
+        @apply flex items-center justify-between;
+    }
+    .Flex-Col-Justify-Around{
+        @apply flex flex-col justify-around items-center;
+    }
+    .Horizontal-Divs-Center{
+        @apply flex flex-col items-center
+    }
+    .Vertical-Divs-Center{
+        @apply flex flex-col justify-center
+    }
+    .Flex-Col{
+        @apply flex flex-col
+    }
+}

@@ -1,0 +1,47 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container {
+    display: block;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination {
+    bottom: 20px !important;
+    /* Adjust this value to move it up */
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 8px !important;
+}
+
+/* Active pagination bullet */
+.swiper-pagination-bullet-active {
+    transform: scale(1.2);
+    outline: 1px solid white;
+    outline-offset: 3px;
+}

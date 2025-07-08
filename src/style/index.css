@@ -1,0 +1,106 @@
+@import './typography/topAds.css';
+@import './layout/flex.css';
+@import './typography/navItem.css';
+@import './typography/popAds.css';
+@import './typography/collectionDetail.css';
+@import './typography/footer.css';
+@import './component/contactUs.css';
+@import './component//navBar.css';
+@import './component/button.css';
+@import './layout/center.css';
+@import './component/categoryDrop.css';
+@import './component/mapInput.css';
+@import './typography/endMap.css';
+@import './dashboard/allDashboard.css';
+@import './typography/loadingText.css';
+@import './typography/HeroCollections.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #161717;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  transition: opacity 0.3s ease;
+}
+
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+/* This removes the leaflet link in the maps */
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+/* Removes autofill background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  background-color: transparent !important;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: black !important;
+  /* Forces text color to black */
+  color: black !important;
+}
+
+/* Hide scrollbar for all browsers */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE/Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Chrome/Safari/Opera */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,13 @@
+@layer components {
+    .Footer-Input {
+        @apply font-normal text-sm leading-[20px] tracking-4% text-white placeholder-white
+    }
+
+    .Footer-Button {
+        @apply font-bold text-[20px] leading-[60px] tracking-4%
+    }
+
+    .Footer-List {
+        @apply font-medium text-sm leading-[40px] mlg:leading-[25px]
+    }
+}
