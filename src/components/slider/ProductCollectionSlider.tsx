@@ -58,7 +58,11 @@ const ProductCollectionSlider: React.FC<props> = ({ data }) => {
                                                     </div>
                                                     <div className='p-3 gl6:p-2 flex flex-col justify-between h-[90px] gl6:h-[60px]'>
                                                         <p className='font-bold text-[15px] gl6:!text-[13px] gl6:!leading-[17px] leading-[20px] tracking-[0.01em]'>{title.slice(0, 61) + '...'}</p>
-                                                        <p className='font-semibold text-[10px] gl6:!text-[8px] gl6:!leading-[18px] leading-[20px] tracking-2% text-[#00000080]'>{content.slice(0, 30) + '...'}</p>
+                                                        <p
+                                                            className='font-semibold text-[10px] gl6:!text-[8px] gl6:!leading-[18px] leading-[20px] tracking-2% text-[#00000080]'
+                                                            dangerouslySetInnerHTML={{ __html: content.slice(0, 30) + '...' }}
+                                                        ></p>
+
                                                         {/* <p className='font-bold text-[15px] gl6:text-[13px] gl6!leading-[27px] leading-[30px] tracking-[0.01em] text-black'>₹58,500.00</p> */}
                                                     </div>
                                                 </Link>

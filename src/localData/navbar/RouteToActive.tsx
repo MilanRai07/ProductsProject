@@ -22,5 +22,6 @@ export const routeToActiveMap: Record<string, string> = {
     '/neo': 'Contact',
     '/godrejindia': 'Contact',
     '/ironwood': 'Contact',
+    '/gallery': 'Gallery',
 
 };

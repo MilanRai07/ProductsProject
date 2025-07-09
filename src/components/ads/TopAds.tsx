@@ -43,7 +43,7 @@ const TopAds = () => {
         animate="animate"
         transition={{ duration: 2, delay: 0.5 }}
       >
-        <p>Ads coming soon...</p>
+        <p>We are opening soon in Kathmandu.</p>
       </motion.section>
     );
   }

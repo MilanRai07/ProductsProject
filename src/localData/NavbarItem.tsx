@@ -8,10 +8,15 @@ export const NavbarItem: navitem[] = [
         name: 'Assets',
         path: '#'
     },
-    {
-        name: 'Catalogues',
-        path: '/catalogues'
+    // {
+    //     name: 'Catalogues',
+    //     path: '/catalogues'
+    // },
+     {
+        name: 'Gallery',
+        path: '/gallery'
     },
+    
     {
         name: 'Collections',
         path: '/collections'

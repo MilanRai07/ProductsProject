@@ -43,7 +43,7 @@ const DesignerSlider: React.FC<props> = ({ designerImages }) => {
                             </SwiperSlide>
                         ))
                     ) : (
-                        <div className="text-center Loading text-black h-full justify-center items-center flex">Designs coming soon..</div>
+                        <div className="text-center Loading text-black h-full justify-center items-center flex"></div>
                     )}
                 </Swiper>
             </div>

@@ -24,7 +24,7 @@ const PopUpAd: React.FC<props> = ({ setShowPopUp }) => {
                 xs:!w-[350px] x-l:h-[400px] lg:!h-[300px] sm-d:!h-[250px] bg-white rounded-[10px] flex overflow-hidden">
                 <div className='w-[342px] h-full'>
                     {
-                        !data?.items[0]?.image_url ? (
+                        !data?.items[1]?.image_url ? (
                             <div className='w-full h-full text-sm sm:text-sm'>No image avaiable</div>
                         ) : (
                             <img src={data.items[0].image_url} alt="Ads Image Here" className='w-full h-full object-cover'></img>
@@ -32,22 +32,22 @@ const PopUpAd: React.FC<props> = ({ setShowPopUp }) => {
                     }
                 </div>
                 <div className=' relative text-center h-[463px] x-l:h-[400px] lg:!h-[300px] sm-d:h-[220px] sm-d:py-7 font-bold text-black flex flex-col items-center gap-12 sm-d:gap-7 justify-center w-[498px]'>
-                    <h1 className='Ads-Title'>{data?.items[0]?.title}</h1>
+                    <h1 className='Ads-Title'>{data?.items[1]?.title}</h1>
                     <div className=''>
-                        <h1 className='Ads-Detail1'>{`${data?.items[0]?.description?.discount}% OFF`}</h1>
-                        <p className='Ads-Detail2'>{data?.items[0]?.description?.title}</p>
+                        <h1 className='Ads-Detail1'>{`${data?.items[1]?.description?.discount}% OFF`}</h1>
+                        <p className='Ads-Detail2'>{data?.items[1]?.description?.title}</p>
                     </div>
                     <div className='w-[276px] sm-d:w-[150px] h-[94px] lg:h-[74px] sm-d:h-[60px] flex flex-col justify-between'>
                         <a
-                            href={data?.items[0]?.description?.btnPath}
+                            href={data?.items[1]?.description?.btnPath}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block cursor-pointer"
                             onClick={closePop}
                         >
-                            <button className='Ads-Info1'>{data?.items[0]?.description?.btnText}</button>
+                            <button className='Ads-Info1'>{data?.items[1]?.description?.btnText}</button>
                         </a>
-                        <p className='Ads-Info2'>{data?.items[0]?.description?.subTitle}</p>
+                        <p className='Ads-Info2'>{data?.items[1]?.description?.subTitle}</p>
                     </div>
                     <Cancel className='absolute top-7 right-7 cursor-pointer hover:scale-110 transition' onClick={() => setShowPopUp(false)} />
                 </div>

@@ -9,8 +9,8 @@ const GallerySmallImage: React.FC<Props> = ({ img, onClick }) => {
         <div className="h-full text-white rounded-lg overflow-hidden relative cursor-pointer"
             onClick={onClick}>
             {!img ? (
-                <p className="flex justify-center items-center w-full h-full text-white bg-gray-800 Loading">
-                    No Image
+                <p className="flex justify-center items-center w-full h-full text-white bg-transparent ">
+                   
                 </p>
             ) : (
                 <img

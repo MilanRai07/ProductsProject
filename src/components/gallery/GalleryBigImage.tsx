@@ -16,8 +16,8 @@ const GalleryBigImage: React.FC<props> = ({ img, onClick }) => {
                         className="w-full h-full object-cover"
                     />
                 ) : (
-                    <p className="flex justify-center items-center w-full h-full bg-gray-200 text-gray-600 Loading">
-                        No Image Available
+                    <p className="flex justify-center items-center w-full h-full bg-transparent">
+
                     </p>
                 )}
                 <div className="w-full h-full bg-[#0000004D] absolute opacity-0 inset-0 group-hover:opacity-100 z-10 transition-all duration-500"></div>

@@ -26,7 +26,8 @@ const HamBurgerIndex: React.FC<props> = ({
     if (name === "Contact") {
       setShowContactHamMenu(true);
     }
-    if (name === "Collections" || name === "Catalogues") {
+    // if (name === "Collections" || name === "Catalogues") {
+        if (name === "Collections" || name === "Gallery") {
       setShowHamMenu(false);
     }
   };
