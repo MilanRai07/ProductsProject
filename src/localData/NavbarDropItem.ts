@@ -1,15 +1,7 @@
-import Com1 from '../assets/images/navbar/company/company1.jpg'
-import Com2 from '../assets/images/navbar/company/company2.jpg'
-import Com3 from '../assets/images/navbar/company/company3.jpg'
-import Com4 from '../assets/images/navbar/company/company4.jpg'
-// import A1 from '../assets/images/navbar/assets/assets1.webp'
-// import A2 from '../assets/images/navbar/assets/assets2.webp'
-// import A3 from '../assets/images/navbar/assets/assets3.webp'
-// import A4 from '../assets/images/navbar/assets/assets4.webp'
-// import Brand1 from '../assets/images/navbar/brand/brand1.webp'
-// import Brand2 from '../assets/images/navbar/brand/brand2.webp'
-// import Brand4 from '../assets/images/navbar/brand/brand4.webp'
-
+import Com1 from '/company/company1.webp'
+import Com2 from '/company/company2.webp'
+import Com3 from '/company/company3.webp'
+import Com4 from '/company/company4.webp'
 interface DropData {
     lists: { name: string; path: string }[];
     images: string[];

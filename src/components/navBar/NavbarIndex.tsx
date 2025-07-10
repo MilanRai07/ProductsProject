@@ -15,14 +15,14 @@ import { useNavbar } from '../../context/NavBarContext';
 import ContactHam from './hamburger/ContactHam';
 import { useLocation } from 'react-router';
 import { routeToActiveMap } from '../../localData/navbar/RouteToActive';
-import Brand1 from '../../assets/images/navbar/brand/brand1.webp'
-import Brand2 from '../../assets/images/navbar/brand/brand2.webp'
-import Brand4 from '../../assets/images/navbar/brand/brand4.webp'
-import Com3 from '../../assets/images/navbar/company/company3.jpg'
-import A1 from '../../assets/images/navbar/assets/assets1.webp'
-import A2 from '../../assets/images/navbar/assets/assets2.webp'
-import A3 from '../../assets/images/navbar/assets/assets3.webp'
-import A4 from '../../assets/images/navbar/assets/assets4.webp'
+import Brand1 from '/brand/brand1.webp'
+import Brand2 from '/brand/brand2.webp'
+import Brand4 from '/brand/brand4.webp'
+import Com3 from '/company/company3.webp'
+import A1 from '/assets/assets1.webp'
+import A2 from '/assets/assets2.webp'
+import A3 from '/assets/assets3.webp'
+import A4 from '/assets/assets4.webp'
 import useGetBrandsNav from '../../customHook/useGetBrandsNav';
 import useGetAssetsNav from '../../customHook/useGetAssetsNav';
 

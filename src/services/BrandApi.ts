@@ -12,7 +12,7 @@ export const BrandApi = createApi({
             query: () => '/brands'
         }),
         getProductByBrandId: builder.query<ProductsByBrandApiResponse, number | null>({
-            query: (id) => `/brands/product/${id}`
+            query: (id) => `/brands/product/${id}?limit=60`
         })
     })
 })

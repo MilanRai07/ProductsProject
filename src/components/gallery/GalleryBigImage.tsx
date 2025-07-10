@@ -20,7 +20,11 @@ const GalleryBigImage: React.FC<props> = ({ img, onClick }) => {
 
                     </p>
                 )}
-                <div className="w-full h-full bg-[#0000004D] absolute opacity-0 inset-0 group-hover:opacity-100 z-10 transition-all duration-500"></div>
+                {
+                    img && (
+                        <div className="w-full h-full bg-[#0000004D] absolute opacity-0 inset-0 group-hover:opacity-100 z-10 transition-all duration-500"></div>
+                    )
+                }
             </div>
         </>
     )
