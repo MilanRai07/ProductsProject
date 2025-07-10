@@ -28,25 +28,31 @@ const NavbarList: React.FC<NavbarListProps> = (props) => {
     //function for changing the boolan states of the dropdown menus/item to show or not
     const clickItem = (item: string) => {
         if (active !== item) {
+            // Only allow dropdown for these 3 items
             if (item === 'Company' || item === 'Assets' || item === 'Brands') {
-                setShowDrop(true); // Show dropdown when switching to a new item
+                setShowDrop(true);
             } else {
-                setExpandAnimation(false); // Set expandAnimation to false for other items
+                setShowDrop(false); // Explicitly hide dropdown for others
             }
             setShowLogin(false);
             setShowContact(false);
-            setPrevActive(active); // Update previous state correctly
+            setPrevActive(active);
             setActive(item);
         } else {
-            setShowDrop(!showDrop);
-            if (location.pathname !== '/') {
-                setActive(item)
+            // Only toggle dropdown if the item is Company/Assets/Brands
+            if (item === 'Company' || item === 'Assets' || item === 'Brands') {
+                setShowDrop(!showDrop);
             } else {
-                setActive('')
+                setShowDrop(false); // Force-hide for Gallery/Collection
+            }
+            if (location.pathname !== '/') {
+                setActive(item);
+            } else {
+                setActive('');
             }
             setShrinkAnimation(false);
         }
-    }
+    };
     const clickContact = (item: string) => {
         //after nav from one navitem to contact
         if (active !== item) {
